@@ -61,15 +61,19 @@ Using Docker is the easiest way to run the entire application.
 
 ## Step 1 — Clone the repository
 
+```
 git clone https://github.com/Kenny-as23/lucky-draw-app.git
+```
 
+```bash
 cd lucky-draw-app
-
+```
 
 ## Step 2 — Start the application with Docker
 
+```bash
 docker compose up --build
-
+```
 
 Docker will automatically:
 
@@ -84,15 +88,21 @@ Docker will automatically:
 
 Frontend
 
+```
 http://localhost:3000
+```
 
 Backend API
 
+```
 http://localhost:5000
+```
 
 Lucky Draw History API
 
+```
 http://localhost:5000/api/history
+```
 
 ---
 
@@ -104,8 +114,13 @@ If Docker is not available, the project can be run manually.
 
 ## Step 1 — Install Backend Dependencies
 
+```bash
 cd backend
+```
+
+```bash
 npm install
+```
 
 Start backend server:
 
@@ -113,7 +128,9 @@ node server.js
 
 Backend will run at:
 
+```
 http://localhost:5000
+```
 
 ---
 
@@ -121,13 +138,23 @@ http://localhost:5000
 
 Open another terminal:
 
+```bash
 cd frontend
+```
+
+```bash
 npm install
+```
+
+```bash
 npm run dev
+```
 
 Frontend will run at:
 
+```
 http://localhost:3000
+```
 
 ---
 
