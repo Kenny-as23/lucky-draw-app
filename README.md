@@ -36,6 +36,7 @@ Database
 Containerization
 - Docker
 - Docker Compose
+- Docker Desktop
 
 ---
 
@@ -48,10 +49,16 @@ Containerization
 
 Before running this project, ensure the following software is installed:
 
+- Git
 - Node.js (v18 or newer)
 - npm
 - Docker
 - Docker Compose
+- Docker Desktop
+
+```Download Docker Desktop
+https://www.docker.com/products/docker-desktop/
+```
 
 ---
 
